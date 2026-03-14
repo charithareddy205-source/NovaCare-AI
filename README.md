@@ -8,8 +8,10 @@ Features:
 - AI-generated health summary
 - Health risk detection
 - AI doctor chatbot
-- Digital report sharing
+- Digital report sharing with hospitals
 
 Technology Used:
 - Python
 - Streamlit
+- PDF processing
+- AI logic
