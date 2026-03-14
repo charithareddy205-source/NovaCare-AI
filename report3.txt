@@ -1,0 +1,5 @@
+Patient Name: Arjun Reddy
+Age: 30
+Symptoms: Fever, Body pain
+Diagnosis: Dengue suspected
+Medicine: Paracetamol

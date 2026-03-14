@@ -1,0 +1,5 @@
+Patient Name: Sita Devi
+Age: 52
+Symptoms: Fatigue, Frequent urination
+Diagnosis: Diabetes
+Medicine: Metformin

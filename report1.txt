@@ -1,0 +1,5 @@
+Patient Name: Ravi Kumar
+Age: 45
+Symptoms: Fever, Headache
+Diagnosis: Viral Fever
+Medicine: Paracetamol
