@@ -2,6 +2,7 @@ import streamlit as st
 from pypdf import PdfReader
 
 st.title("NovaCare – AI Health Record Assistant")
+st.caption("AI-powered medical report analysis and patient health insights")
 
 uploaded_file = st.file_uploader("Upload Medical Report", type=["pdf","txt"])
 
@@ -128,3 +129,19 @@ if uploaded_file is not None:
 
     if st.button("Send Report to Hospital"):
         st.success("Report successfully shared with hospital database.")
+    st.subheader("Share Report with Hospital")
+
+    hospital = st.selectbox(
+    "Choose Hospital",
+    ["Apollo Hospital", "Yashoda Hospital", "Global Hospital","Gandhi Hospital","Kamineni Hospital","Omega Hospital"]
+    )
+
+    if st.button("Send Report"):
+        st.success(f"Report successfully shared with {hospital}")
+    st.subheader("Download AI Summary")
+
+    st.download_button(
+       label="Download Report Summary",
+       data=summary,
+       file_name="health_summary.txt"
+)
